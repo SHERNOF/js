@@ -18,7 +18,7 @@ function funcDemo2 (a){
     document.getElementById('input').value = '';
 }
 
-document.getElementById('funcDemo3').innerHTML = "The temp is +funcDemo2() + Celsius"
+// document.getElementById('funcDemo3').innerHTML = "The temp is +funcDemo2() + Celsius"
 
 
 // Object 
@@ -32,6 +32,31 @@ var person = {
 document.getElementById('getName').innerHTML = person.firstName + " " + person.lastName
 }
 
+var fruits, text, flen, i; 
+fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+flen = fruits.length;
+text = '<ul>';
+for (i = 0; i < flen; i++){
+    text += '<li>' + fruits[i] + '</li>';
+}
+text += '</ul>';
+// let b = document.getElementById('arrDemo1').innerHTML = text;
+
+var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+document.getElementById('arrDemo2').value = fruits;
+
+function arrDemo2 () {
+    fruits.push("Lemon");
+    document.getElementById('arrDemo2').value = fruits;
+}
+
+var fruitss = ['Banana', 'Orange', 'Apple', 'Mango'];
+document.getElementById('arrDemo3').value = fruitss;
+
+function arrDemo3 () {
+    fruitss[fruitss.length] = "Lemon";
+    document.getElementById('arrDemo3').value = fruitss;
+}
 
 
 

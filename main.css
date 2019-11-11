@@ -16,6 +16,7 @@ input {
 img {
     width: 800px;
     height: 300px;
+    border-radius: 3px;
 }
 
 #source {
@@ -33,6 +34,31 @@ h5 {
 }
 
 #obj2 {
+    width: 500px;
+    height: 150px;
+}
+
+#arr {
+    width: 400px;
+    height: 65px;
+}
+
+#example {
+    color: aqua;
+    font-size: 1.2rem;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+#arr2 {
+    width: 800px;
+    height: 300px;
+}
+
+#arr3 {
     width: 500px;
     height: 150px;
 }

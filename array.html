@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="index.html">Home</a>
+
+    <h2>10. Array</h2>
+    <P>Array is a special variable, which can hold more than one value at a time.</P>
+    <p id="example">Examples</p>
+    <p>var cars = ["Saab", "Volvo", "BMW"];</p>
+
+    <h5>10a. Access the Elements of an Array</h5>
+    <p>You access an array element by referring to the <strong>index number</strong>.</p>
+    <p>This statement accesses the value of the first element in cars:</p>
+    <p id="example">Example</p>
+    <img id="arr" src="./img/array2.png">
+    <p>Note: Array indexes start with 0. [0] is the first element. [1] is the second element.</p>
+
+    <h5>10b. Changing an Array Element</h5>
+    <p>This statement changes the value of the first element in <span>cars:</span></p>
+    <p id="example">Example:</p>
+    <img id="arr" src="./img/array3.png"> <img id="arr" src="./img/arr.png">
+
+    <h5>10c. Access the Full Array</h5>
+    <p>With JavaScript, the full array can be accessed by referring to the array name:</p>
+    <img id="arr" src="./img/array4.png">
+
+    <h5>10d. Arrays are Objects</h5>
+    <p>Arrays are a special type of objects. The <span>typeof</span> operator in JavaScript returns "object" for arrays.</p>
+    <p>JavaScript arrays are best described as arrays. Arrays use numbers to access its "elements". In this example, <span>person[0]</span> returns John:</p>
+    <p>Objects use names to access its "members". In this example, <span>person.firstName</span> returns John.</p>
+    <P>Below is the comparison:</P>
+    <img id="arr" src="./img/array5.png"> <img id="arr" src="./img/array6.png">
+
+    <h5>10e. Array Elements can be Objects</h5>
+    <p>JavaScript variables can be objects. Arrays are special kinds of objects. Because of this, you can have variables of different types in the same Array.</p>
+    <p>You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array. Sample as below:</p>
+    <img id="arr" src="./img/array7.png">
+
+    <h5>10f. Array Properties and Methods</h5>
+    <p>The real strength of JavaScript arrays are the built-in array properties and methods:</p>
+    <p id="example">Example:</p>
+    <img id="arr" src="./img/array8.png">
+
+    <h5>10g. The length Property</h5>
+    <p>The <span>length</span> property of an array returns the length of an array (the number of array elements).</p>
+    <p>The <span>length</span> property is always one more than the highest array index.</p>
+    <p id="example">Example:</p>
+    <img id="arr" src="./img/array9.png">
+
+    <h5>10h. Accessing the First and Last Array Element</h5>
+    <p id="example">Example:</p>
+    <img id="arr" src="./img/array10.png"> <img id="arr" src="./img/array11.png">
+    <p>Banana is the first Array Element in the left photo and Mango is the last Element in the right photo</p>
+
+    <h5>10i. Looping Array Elements</h5>
+    <p>The safest way to loop through an array, is using a for <span>loop</span>:</p>
+    <!-- <p id="arrDemo1" value="b"></p> -->
+    <p id="example">Example:</p>
+    <img id="arr2" src="./img/array12.png">
+
+    <p>Another method is the <span>Array.forEach()</span> function</p>
+    <p id="example">Example:</p>
+    <img id="arr2" src="./img/array13.png">
+
+    <h5>10j. Adding Array Elements - by <span>push()</span> method</h5>
+    <p id="example">Example:</p>
+    <img id="arr3" src="./img/array14.png">
+    <div>
+        <button onclick="arrDemo2()" value="">Add Fruit</button> <input id="arrDemo2" type="text" style="width: 200px;">
+        <p>In above sample, only 4 fruits are displayed in the input box, it will turn 5 and add the Lemon as the last Array after pressing the "Add fruit" button</p>
+    </div>
+
+    <h5>10k. Adding Array Elements - by <span>length</span> property</h5>
+    <p id="example">Example:</p>
+    <img id="arr3" src="./img/array15.png">
+    <div>
+        <button onclick="arrDemo3()" value="">Add Fruitss</button> <input id="arrDemo3" type="text" style="width: 200px;">
+        <p>In above sample, only 4 fruits are displayed in the input box, it will turn 5 and add the Lemon as the last Array after pressing the "Add fruit" button</p>
+        <p>Note that the fruits in the previous sample is now fruitss in this example with double s</p>
+        <p>Same result, it will add the 5th element Lemon in the input field.</p>
+    </div>
+
+    
+    <script src="main.js"></script>    
+</body>
+</html>
