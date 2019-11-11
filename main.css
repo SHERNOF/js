@@ -1,0 +1,38 @@
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(105, 107, 107);
+}
+button {
+    color: black;
+}
+input {
+    color: black;
+}
+img {
+    width: 800px;
+    height: 300px;
+}
+
+#source {
+    width: 100px;
+    height: 150px;
+}
+
+h5 {
+    font-size: 20px;;
+}
+
+#funcImg {
+    width: 400px;
+    height: 100px;
+}
+
+#obj2 {
+    width: 500px;
+    height: 150px;
+}

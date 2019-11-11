@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>JavaScript Fundamentals</h2>
+    
+    <h5 id="intro">1. JavaScript can change the attribute of an element</h5>
+    <button onclick="document.getElementById('source').src='img/bulboff.png'">Off</button>
+    <img id="source" src="./img/bulboff.png">
+    <button onclick="document.getElementById('source').src='img/bulbon.png'" style="margin-top: 10px">On</button>
+    <div>
+        <h5 id="cssChange">2. It can change the HTML style</h5>
+        <button id="fSizeChange" onclick="document.getElementById('cssChange').style.fontSize='25px'">Style Change</button>
+    </div>  
+    <div>
+        <h5 id="show" style="display: none;">3. Can show or hide elements</h5>
+        <button id="fSizeChange" style="margin-top: 10px;" onclick="document.getElementById('show').style.display='block'">Show</button>
+    </div>  
+
+    <div>
+        <h5 id="scripting">6. Script can be put either head or body of the HTML page using function stated in main.js. this displays the use of function and how to call it from other file</h5>
+        <button id="fColorChange" onclick="fColorChange()">Change the font color</button>    
+        <button id="doneWell" onclick="doneWell()">Done Well</button>
+    </div>
+
+    <div>
+        <h4>7. External JavaScript Advantages (main.js)</h4>
+        <p>It separates HTML and code</p>
+        <p>It makes HTML and JavaScript easier to read and maintain</p>
+        <p>Cached JavaScript files can speed up page loads</p>
+    </div>
+
+    <div>
+        <h5>8. JavaScript Operators</h5>
+        <img id="operators" src="./img/operators.PNG">
+    </div>
+
+    <div>
+        <a href="function.html">9. Function</a>
+    </div>
+
+    <div>
+            <a href="object.html">10. Object</a>
+        </div>
+
+    <div>
+        <h5>JavaScript Keywords</h5>
+        <img src="./img/JSKeywords.PNG">
+    </div>
+
+
+
+
+
+
+
+    <script src='main.js'></script>
+</body>
+</html>

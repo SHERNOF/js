@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+
+    <div>
+        <h5>9 JavaScript Functions</h5>
+        <p>A JavaScript function is a block of code designed to perform a particular task.</p>
+        <p>A JavaScript function is executed when "something" invokes it (calls it).</p>
+        
+
+        <h5>Example</h5>
+
+        <label>funcDemo1</label>
+        <div>
+        <img id="funcImg" src="./img/funcdemo1.PNG">
+        </div>
+
+        <div>
+            <button onclick="funcDemo1(4, 5)">Calculate</button>
+            <input type="number" id="funcDemo1">
+        </div>
+
+        <h5>9a. JavaScript Function Syntax</h5>
+        <p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses <strong>()</strong>.</p>
+        <p>- Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).</p>
+        <p>- The parentheses may include parameter names separated by commas:(parameter1, parameter2, ...)</p>
+        <p>- The code to be executed, by the function, is placed inside curly brackets: {}</p>
+        <p>- Function parameters are listed inside the parentheses () in the function definition.</p>
+        <p>- Function arguments are the values received by the function when it is invoked.</p>
+        <p>- Inside the function, the arguments (the parameters) behave as local variables.</p>
+
+        <h5>9b. Function Invocation</h5> 
+        <p>  The code inside the function will execute when "something" invokes (calls) the function:</p>
+        <p>- When an event occurs (when a user clicks a button), see funcDemo1 or 2</p>
+        <p>- When it is invoked (called) from JavaScript code</p>
+        <p>- Automatically (self invoked)</p>
+
+        <h5>9c. Function Return</h5>
+        <p>- When JavaScript reaches a return statement, the function will stop executing.</p>
+        <!-- <div>
+            <input id="input2" type="number" value="" placeholder="Input value"> +
+            <input id="input3" type="number" value="" placeholder="Input value">
+            <button onclick="funcDemo3(document.getElementById('input2').value, document.getElementById('input3').value)">Add</button>
+            <input id="output2" type="text" value="">
+        </div> -->
+        <p>- If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.</p>
+        <p>- Functions often compute a return value. The return value is "returned" back to the "caller", see funcDemo1:</p>
+       
+        <label>funcDemo2</label>
+        <div>
+        <img id="funcImg" src="./img/funcdemo2.PNG">
+        </div>
+        <div>
+            <input id="input" type="number" value="" placeholder="Input Fahrenheit">
+            <button onclick="funcDemo2(document.getElementById('input').value)">Convert to Fahrenheit</button>
+            <input id="output" type="text" value="">
+        </div>
+        
+        <h5>9d. Local Variables</h5>
+        <p>Variables declared within a JavaScript function, become <strong>LOCAL</strong> to the function</p>
+        <p>Local variables can only be accessed from within the function, see funcDemo2</p>
+
+        <h5>9e. Functions Used as Variable Values</h5>
+        <p>Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.</p>
+        <img src="./img/funcDemo3.PNG">
+        
+        
+    
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
